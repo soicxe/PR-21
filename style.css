@@ -1,0 +1,58 @@
+* { box-sizing: border-box; }
+
+body {
+	height: 100%;
+	margin: 0;
+	background-color: #282828;
+	color: white;
+	font-family: Bahnschrift;
+	font-size: 35px;
+}
+footer{
+	background-color: #161616;
+	height: 70px;
+	width: 100%;
+	color: #e4e4e4;
+	text-align: center;
+	padding-top: 20px;
+	position: fixed;
+   bottom: 0;
+	z-index: 1;
+	font-size: 20px;
+	font-weight: 200;
+}
+.navbar{
+	background-color: #1a1a1a;
+	display: relative;
+	margin: 0 25px 25px;
+	border: 4px inset #aa80d4;
+	right: 0;
+}
+.navbar-brand{
+	font-size: 35px;
+	margin-right: -9px;
+}
+main{
+	margin-top: 25px;
+}
+a{
+	color: #f197dc!important;
+}
+ul.dropdown-menu{
+	background-color: #131447;
+}
+.dropdown-item:hover{
+	background-color: #b3b3b3;
+	color: #000128!important;
+}
+a:hover{
+	color: #97f1bd!important;
+}
+.cutImg{
+	width: 933px;
+	margin: 40px auto 60px;
+}
+.cutImg > img{
+	margin: 20px;
+	height: auto;
+}
